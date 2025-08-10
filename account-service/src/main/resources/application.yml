@@ -40,7 +40,7 @@ seata:
   service:
     vgroup-mapping: # 事务组与cluster的映射关系
       seata-demo: default
-#  data-source-proxy-mode: AT
+  data-source-proxy-mode: XA
 #  config:
 #    type: nacos
 #    nacos:
